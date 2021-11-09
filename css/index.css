@@ -1,7 +1,7 @@
 .mirror-container{
     display:grid;
     grid-template-columns: repeat(3, 360px);
-    grid-template-rows: repeate(5, 384px);
+    grid-template-rows: repeat(5, 384px);
     gap: 0;
 }
 
