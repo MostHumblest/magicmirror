@@ -1,1 +1,31 @@
+.mirror-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeate(5, 1fr);
+    gap: 0;
+}
 
+#topLeft{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#topRight{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#bottomLeft{
+    grid-column: 1;
+    grid-row: 5;
+}
+
+#bottomRight{
+    grid-column: 3;
+    grid-row: 5;
+}
+
+#center{
+    grid-column: 2;
+    grid-row: 3;
+}
