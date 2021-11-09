@@ -2,6 +2,7 @@ body{
     background-color:black;
     color:white;
 }
+
 .mirror-container{
     display:grid;
     grid-template-columns: repeat(3, 360px);
