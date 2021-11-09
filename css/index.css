@@ -3,6 +3,8 @@
     grid-template-columns: repeat(3, 360px);
     grid-template-rows: repeat(5, 384px);
     gap: 0;
+    background-color:black;
+    color: white;
 }
 
 #topLeft{
