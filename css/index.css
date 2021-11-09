@@ -13,11 +13,13 @@
 #topRight{
     grid-column: 3;
     grid-row: 1;
+    text-align:left;
 }
 
 #bottomLeft{
     grid-column: 1;
     grid-row: 5;
+    text-align:right;
 }
 
 #bottomRight{
