@@ -5,6 +5,7 @@
     --color-text-bright: #fff;
 
     --font-primary: "Helvetica";
+    --font-modifier: "small-caps";
 
     --font-size: 20px;
     --font-size-small: 1rem;
@@ -29,7 +30,7 @@ html{
     background: var(--color-background);
     user-select: none;
     font-size:var(--font-size);
-    font-family: "Helvetica", sans-serif;
+    font-family: var(--font-primary), sans-serif;
 }
 
 body{
@@ -99,4 +100,28 @@ body{
 
 .xlarge{
     font-size: var(--font-size-xlarge);
+}
+
+.thin{
+    font-family: var(--font-secondary), sans-serif;
+    font-variant: var(--font-modifier);
+    font-weight: 100;
+}
+
+.light{
+    font-family: var(--font-primary), sans-serif;
+    font-variant: var(--font-modifier);
+    font-weight: 300;
+}
+
+.regular{
+    font-family: var(--font-primary), sans-serif;
+    font-variant: var(--font-modifier);
+    font-weight: 400;
+}
+
+.bold{
+    font-family: var(--font-primary), sans-serif;
+    font-variant: var(--font-modifier);
+    font-weight: 700;
 }
