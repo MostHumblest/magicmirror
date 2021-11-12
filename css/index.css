@@ -25,7 +25,7 @@
 }
 
 html{
-    cursor: none;
+    /*cursor: none;*/
     overflow: hidden;
     background: var(--color-background);
     user-select: none;
@@ -35,8 +35,6 @@ html{
 
 body{
     margin: var(--gap-body-top) var(--gap-body-right) var(--gap-body-bottom) var(--gap-body-left);
-    /*height: var(--screen-height);
-    width: var(--screen-width);*/
     background: var(--color-background);
     color: var(--color-text);
     font-family: var(--font-primary), sans-serif;
