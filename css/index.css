@@ -38,7 +38,7 @@ body{
     font-family: var(--font-primary), sans-serif;
 }
 
-.mirror-container{
+.container-default{
     display:grid;
     grid-template-columns: repeat(3, 360px);
     grid-template-rows: repeat(5, 380px);
@@ -69,11 +69,7 @@ body{
     text-align: left;
 }
 
-#mainDisplay{
-    grid-column: span 3;
-    grid-row: 2/5;
-    background-color: maroon;
-}
+.container-content
 
 .small{
     font-size: var(--font-size-small);
