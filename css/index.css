@@ -18,6 +18,9 @@
     --gap-body-left: 60px;  
     
     --gap-modules: 30px;
+
+    --screen-height: calc(1920 - var(--gap-body-top) - var(--gap-body-bottom));
+    --screen-width: calc(1080 - var(--gap-body-left) - var(--gap-body-right));
 }
 
 html{
@@ -31,8 +34,8 @@ html{
 
 body{
     margin: var(--gap-body-top) var(--gap-body-right) var(--gap-body-bottom) var(--gap-body-left);
-    height: calc(1080 - var(--gap-body-top) - var(--gap-body-bottom));
-    width: calc(1920 - var(--gap-body-right) - var(--gap-body-left));
+    height: var(--screen-height);
+    width: var(--screen-width);
     background: var(--color-background);
     color: var(--color-text);
     font-family: var(--font-primary), sans-serif;
@@ -40,8 +43,8 @@ body{
 
 .container-default{
     display:grid;
-    grid-template-columns: repeat(3, calc((1080 - var(--gap-body-right) - var(--gap-body-left))/3));
-    grid-template-rows: repeat(5, calc((1920 - var(--gap-body-top) - var(--gap-body-bottom))/5));
+    grid-template-columns: repeat(3, calc(var(--screen-width)/3));
+    grid-template-rows: repeat(5, calc(var(--screen-height)/5));
 }
 
 .default-topLeft{
