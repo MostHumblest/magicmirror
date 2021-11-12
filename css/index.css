@@ -33,7 +33,9 @@ body{
     margin: var(--gap-body-top) var(--gap-body-right) var(--gap-body-bottom) var(--gap-body-left);
     height: calc(100% - var(--gap-body-top) - var(--gap-body-bottom));
     width: calc(100% - var(--gap-body-right) - var(--gap-body-left));
-
+    background: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-primary), sans-serif;
 }
 
 .mirror-container{
@@ -70,7 +72,7 @@ body{
 #mainDisplay{
     grid-column: span 3;
     grid-row: 2/5;
-    background-color: aqua;
+    background-color: maroon;
 }
 
 .small{
