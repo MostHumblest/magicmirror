@@ -81,7 +81,7 @@ body{
 
 .content-main{
     grid-column: span 6;
-    grid-row: -1/5;
+    grid-row: span 5;
     background-color: maroon;
 }
 
