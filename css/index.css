@@ -19,8 +19,8 @@
     
     --gap-modules: 30px;
 
-    --screen-height: calc(1920 - var(--gap-body-top) - var(--gap-body-bottom));
-    --screen-width: calc(1080 - var(--gap-body-left) - var(--gap-body-right));
+    --screen-height: calc(1920px - var(--gap-body-top) - var(--gap-body-bottom));
+    --screen-width: calc(1080px - var(--gap-body-left) - var(--gap-body-right));
 }
 
 html{
