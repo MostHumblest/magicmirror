@@ -2,9 +2,6 @@
     --color-background:#000;
     --color-text: #999;
 
-    --font-primary: "Helvetica";
-    --font-secondary: "Helvetica Compressed";
-
     --font-size: 20px;
     --font-size-small: 0.75rem;
 
@@ -22,6 +19,7 @@ html{
     background: var(--color-background);
     user-select:none;
     font-size:var(--font-size);
+    font-family: "Helvetica", sans-serif;
 }
 
 body{
