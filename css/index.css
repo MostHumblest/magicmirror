@@ -43,8 +43,8 @@ body{
 
 .container-default{
     display:grid;
-    grid-template-columns: repeat(3, calc(var(--screen-width)/3));
-    grid-template-rows: repeat(5, calc(var(--screen-height)/5));
+    grid-template-columns: repeat(3, minmax(auto, calc(var(--screen-width)/3)));
+    grid-template-rows: repeat(5, minmax(auto, calc(var(--screen-height)/5)));
 }
 
 .default-topLeft{
