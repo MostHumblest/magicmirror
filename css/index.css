@@ -70,6 +70,8 @@ body{
 }
 
 .default-container-content{
+    grid-column: span 5;
+    grid-row:2/5;
     display: grid;
     grid-template-columns: minmax(225px, 1fr), repeat(5,1fr);
     grid-template-rows:repeat(4, minmax(0, auto)) auto;
