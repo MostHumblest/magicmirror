@@ -101,7 +101,7 @@ body{
 }
 
 .thin{
-    font-family: var(--font-secondary), sans-serif;
+    font-family: var(--font-primary), sans-serif;
     font-variant: var(--font-modifier);
     font-weight: 100;
 }
