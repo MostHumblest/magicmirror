@@ -70,7 +70,7 @@ body{
     text-align: left;
 }
 
-.default-container-content{
+.default-container-recipe{
     grid-column: span 3;
     grid-row:2/6;
     display: grid;
@@ -78,7 +78,7 @@ body{
     grid-template-rows:repeat(4, minmax(0, auto)) auto;
 }
 
-.content-main{
+.recipe-main{
     grid-column: span 6;
     grid-row: span 5;
     background-color: maroon;
