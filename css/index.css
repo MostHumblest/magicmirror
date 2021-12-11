@@ -81,7 +81,6 @@ body{
 .recipe-main{
     grid-column: span 6;
     grid-row: span 5;
-    background-color: maroon;
 }
 
 .small{
